@@ -1,0 +1,297 @@
+@media (max-width: 1500px){
+    .videographer_line-container img{
+        width: 1300px;
+        left: -80px;
+    }
+}
+@media (max-width: 1350px){
+    .videographer_line-container img{
+        width: 1100px;
+        left: 25px;
+    }
+}
+@media (max-width: 1250px){
+    .header{
+        display: block;
+    }
+    .videographer_front-img{
+        left: 0;
+        right: 0;
+        top: 120px;
+        margin: 0 auto;
+    }
+    .videographer_social{
+        display: none;
+    }
+    .container_inner ul
+    {
+        display: none;
+    }
+    .videographer_bg-img{
+        visibility: hidden;
+    }
+}
+@media (max-width: 1200px){
+    .videographer_line-container img{
+        display: none;
+    }
+    .about_container-inner{
+        display: block;
+        /* max-height: 405px; */
+        height: 100%;
+        max-width: 605px;
+        width: 100%;
+        margin: 130px auto 0;
+    }
+    .about_text-img{
+        display: inline-block;
+        right: 45px; 
+        bottom: -20px;
+    }
+    .about_item{
+        margin: 0 auto;
+        padding-top: 100px;
+        padding-left: 0;
+    }
+    .about_advatages-title{
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 1150px){
+    .videographer_items{
+        display: none;
+    }
+    .videographer_items2{
+        display: block;
+        position: relative;
+        /* padding-top: 20px; */
+    }
+    .videographer_title{
+        margin: 0 auto 20px;
+    }
+    .videographer_container_bg{
+        margin: 0 auto;
+    }
+    .portfolio_items1,
+    .portfolio_items2{
+        display: block;
+    }
+    .portfolio_items2{
+        margin-top: 0;
+        padding-bottom: 105px;
+    }
+    .portfolio_item{
+        margin: 20px auto 0;
+    }
+    .price_items{
+        display: block;
+    }  
+    .price_item1,
+    .price_item2,
+    .price_item3{
+        margin: 0 auto;
+    }
+    .price_item1,
+    .price_item2,
+    .price_item3{
+        margin-bottom: 100px;
+    }
+    .price_item-money{
+        font-size: 30px;
+    }
+}
+@media (max-width: 850px){
+    .burger_menu{
+        display: inline-block;
+    }
+    .nav_ul-header{
+        display: block;
+    }
+    .header_ul-container{
+        position: absolute;
+        text-align: center;
+        border-bottom-left-radius: 10px;
+        right: -17px;
+        height: 350px;
+        width: 200px;
+        top: -350px;
+        background: rgba(255, 255, 255, 0.95);
+        transition: all 0.4s ease 0s;
+    }
+    .header_ul-container.active{
+        top: 80px;
+    }
+    .nav_ul-header a{
+        padding: 0 0 30px 0;
+    }
+    .advatages_items{
+        display: block;
+    }
+    .advatages_item{
+        padding-top: 50px;
+    }
+    .advatages_title{
+        padding-top: 10px;
+    }
+}
+@media (max-width: 768px){
+    .header{
+        height: 50px;
+    }
+    .header_ul-container.active{
+        top: 50px;
+    }
+    .nav_li-streamster-header{
+        font-size: 25px;
+    }
+    .burger_menu{
+        top: 17px;
+    }
+    .videographer_front-img{
+        top: 70px;
+    }
+    .price_contacts-text{
+        padding: 75px 10px 0;
+    }
+}
+@media (max-width: 650px){
+    .videographer_container_bg{
+        max-height: 500px;
+    }
+    .price_contacts-text{
+        font-size: 18px;
+        padding: 50px 10px 0;
+    }
+    .price_items-social{
+        display: block;
+    }
+    .price_item-social-inst,
+    .price_item-social-tel{
+        font-size: 20px;
+        text-align: left;
+    }
+    .price_item-social-tel{
+        font-size: 16px;
+    }
+    .price_item-social-inst::before,
+    .price_item-social-tel::before{
+        font-size: 25px;
+    }
+}
+@media (max-width: 600px){
+    .container_inner{
+        min-height: 300px;
+    }
+    .videographer_items2{
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    .videographer_title{
+        display: none;
+    }
+    .videographer_title-list{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .videographer_title-list ul{
+        padding-left: 15px;
+    }
+    .videographer_list-li{
+        font-size: 40px;
+        text-align: left;
+        color: #000;
+        font-family: 'Conv_Gotham Pro Black';
+        letter-spacing: -3px;
+        line-height: 58px;
+        padding-top: 15px;
+    }
+    .videographer_list-li:first-child{
+        text-transform: uppercase;
+    }
+    .videographer_list-li:nth-child(2){
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .videographer_list-li:last-child{
+        display: inline-block;
+    }
+    .about_text-img{
+        font-size: 30px;
+    }
+}
+@media (max-width: 500px){
+    body.lock{
+        overflow: hidden;
+    }
+    .header_ul-container{
+        border-bottom-left-radius: 0;
+        right: 0;
+        height: 100vh;
+        width: 100vw;
+        top: -1500px;
+        transition: all 0.7s ease 0s;
+    }
+    .videographer_list-li{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .about_text-img{
+        font-size: 20px;
+        bottom: 0;
+    }
+    .about_title{
+        font-size: 20px;
+    }
+    .about_text{
+        font-size: 14px;
+    }
+    .about_advatages-title{
+        font-size: 20px;
+    }
+    .portfolio_title{
+        font-size: 20px;
+    }
+    .portfolio_item{
+        margin: 105px auto 0;
+    }
+    .price_title{
+        font-size: 20px;
+    }
+    .price_contacts-title{
+        font-size: 25px;
+    }
+    .price_item1,
+    .price_item2,
+    .price_item3{
+        max-width: 320px;
+    }
+    .price_item1{
+        max-height: 500px;
+    }
+    .price_item2{
+        max-height: 650px;
+    }
+    .price_item-list1,
+    .price_item-list2,
+    .price_item-list3{
+        width: 320px;
+    }
+    .price_item-list1 li,
+    .price_item-list2 li,
+    .price_item-list3 li{
+        margin-left: 45px;
+        width: 140px;
+        font-size: 18px;
+    }
+    .price_item-list1 li::before,
+    .price_item-list2 li::before,
+    .price_item-list3 li::before{
+        height: 15px;
+        width: 15px;
+    }
+}
+@media (max-width: 400px){
+    .container_inner{
+        min-height: 200px;
+    }
+}
